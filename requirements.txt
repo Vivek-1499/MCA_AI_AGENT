@@ -1,0 +1,10 @@
+python-dotenv
+langchain-groq
+langchain-core
+pydantic
+playwright
+pymupdf
+pdfplumber
+rapidocr-onnxruntime
+apscheduler
+boto3
