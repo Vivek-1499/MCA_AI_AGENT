@@ -49,22 +49,11 @@ python main.py
 python main.py --once
 ```
 
-### Re-generate Technical PDF Report
-```bash
-python generate_pdf_report.py
-```
-
-## Documentation
-
-For a comprehensive line-by-line architectural breakdown, flowcharts, anti-bot mechanisms, and low-level code explanations, refer to:
-- **[DETAILED_ARCHITECTURE.md](DETAILED_ARCHITECTURE.md)**: Exhaustive Markdown specification.
-- **`MCA_Document_Automation_Architecture_Report.pdf`**: Publication-grade technical PDF report.
-
 ## Directory Structure
 
 ```
 ├── main.py                     # Application entry point (scheduler & CLI)
-├── clear_docs.py                 # Utility script to reset database and storage
+├── clear_docs.py               # Utility script to reset database and storage
 ├── requirements.txt            # Python dependencies
 ├── processed_docs.db           # SQLite database tracking processed documents
 ├── README.md                   # Project overview & quickstart guide
